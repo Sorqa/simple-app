@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "Sorqa/simple-app:1.0"
         GITHUB_REPO = "https://github.com/Sorqa/simple-app.git"
-        JAR_FILE = "simple-app.jar"
+        JAR_FILE = "jenkins.jar"
     }
 
     stages {
